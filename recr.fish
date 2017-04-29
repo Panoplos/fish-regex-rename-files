@@ -12,7 +12,7 @@ function recr -d "Rename all files in dir (default: CWD), recursively, using sed
 			#echo $f is a directory... pushing onto stack and calling recursively!
       pushd $f
       recr $argv[$idx..-1]
-			echo Popping (pwd) from the stack...
+			#lsecho Popping (pwd) from the stack...
       popd
     else
       #echo moving $f with regex $argv[$idx]
