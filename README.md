@@ -1,4 +1,4 @@
-## fish-regex-rename-files
+# fish-regex-rename-files
 
 Sharing a few fish functions that I have found useful when having to deal with batch name changes on a lot of files in the awesome [Fish Shell](https://fishshell.com/).
 
@@ -6,13 +6,13 @@ Sharing a few fish functions that I have found useful when having to deal with b
 
 **recr** recurses through all subdirectories in the optionally provided dir (default: CWD) and renames only files according to the provided `sed -E` compatible regex replace pattern. 
 
-# Installation
+## Installation
 
 Download the .fish files and save into your `/Users/yourname/.config/fish/functions` directory. Restart your console instance and the functions will be available. If you need them in a current session, you can `source /Users/yourname/.config/fish/functions/*.fish` them in.
 
 If you would like to enhance the scripts in your own repo, I recommend cloning this repo locally and soft-linking them into the above functions directory.
 
-# Usage
+## Usage
 
 ```fish
 ⟩ renr [dir] "regex"
