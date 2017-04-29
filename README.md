@@ -8,9 +8,9 @@ Sharing a few fish functions that I have found useful when having to deal with b
 
 # Installation
 
-Download the .fish files and save into your `/Users/yourname/.config/fish/functions` directory. Restart your console instance and the functions will be available. If you need then in a current session, you can `source /Users/yourname/.config/fish/functions/*.fish` them in.
+Download the .fish files and save into your `/Users/yourname/.config/fish/functions` directory. Restart your console instance and the functions will be available. If you need them in a current session, you can `source /Users/yourname/.config/fish/functions/*.fish` them in.
 
-If you would like to enhance them in your own repo, I recommend cloning this repo locally and soft-linking them into the above functions directory.
+If you would like to enhance the scripts in your own repo, I recommend cloning this repo locally and soft-linking them into the above functions directory.
 
 # Usage
 
