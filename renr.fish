@@ -14,7 +14,7 @@ function renr -d "Rename all files in dir (default: CWD) using sed regex search 
   end
   for f in *
     #echo Moving $f with regex $argv[$idx]
-    command mv $f (echo $f | sed -E $argv[$idx])
+    command mv $f (echo $f | sed -E $argv[$idx]) ^/dev/null
   end
   if test $goback -eq 1
     #echo Popping current directory...
